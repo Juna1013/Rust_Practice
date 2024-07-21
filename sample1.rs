@@ -1,6 +1,6 @@
 fn main() {
-    let a = 10;               // immutable object
-    let aref1 = &a;           // reference
-    let aref2 = &a;           // reference
-    println!("{}, {}, {}", a, aref1, aref2); // borrow check!! - OK
+    let a = 10;
+    let aref1 = &a;
+    let aref2 = &a;
+    println!("{}, {}, {}", a, aref1, aref2);
 }
